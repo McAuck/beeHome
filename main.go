@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "ihome/routers"
+	_ "beeHome/routers"
 	"github.com/astaxie/beego"
 )
 
