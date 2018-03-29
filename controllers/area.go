@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
-	"ihome/utils"
-	"ihome/models"
+	"beeHome/utils"
+	"beeHome/models"
 	"github.com/astaxie/beego/orm"
 )
 

@@ -1,12 +1,12 @@
 package routers
 
 import (
-	"ihome/controllers"
+	"beeHome/controllers"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
 	"strings"
 	"net/http"
-	_ "ihome/models"
+	_ "beeHome/models"
 )
 
 func ignoreStaticPath() {

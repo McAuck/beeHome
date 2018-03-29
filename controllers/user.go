@@ -3,10 +3,10 @@ package controllers
 import(
 	"github.com/astaxie/beego"
 	_ "go/types"
-	"ihome/utils"
+	"beeHome/utils"
 	"encoding/json"
 	"github.com/astaxie/beego/orm"
-	"ihome/models"
+	"beeHome/models"
 	"os"
 	"github.com/astaxie/beego/httplib"
 )
