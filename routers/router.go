@@ -41,4 +41,8 @@ func init() {
 	beego.Router("/api/v1.0/user/name",&controllers.UserController{},"put:UpdateUserName")
 	//上传头像 /api/v1.0/user/avatar
 	beego.Router("/api/v1.0/user/avatar",&controllers.UserController{},"post:UploadUserPic")
+	//查询用户信息
+	beego.Router("/api/v1.0/user",&controllers.UserController{},"get:GetUserInfo")
+	//使命认证检查
+	beego.Router("/api/v1.0/user/auth",&controllers.UserController{},"get:GetUserInfo;post:UpdateUserAuth")
 }
